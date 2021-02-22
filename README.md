@@ -10,4 +10,6 @@ The RBCs are smaller, rounded and have well-defined sharp boundaries resembling 
 
 | cell type | Training Set | Validation Set | Testing Set |
 | --------- | ------------ | -------------- | ----------- |
-| rbc | 2324 | 2e3 | 3546 |
+| rbc | 910 | 25 | 104 |
+| pus | 660 | 112 | 134 |
+| epithelial | 475 | 96 | 69 |
