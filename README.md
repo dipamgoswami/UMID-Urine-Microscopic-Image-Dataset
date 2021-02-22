@@ -5,3 +5,8 @@ Analysis of urine sediment particles from microscopic images play a vital role i
 We present a dataset comprising of 374 annotated microscopic images of urine sediments of dimensions (1280,720). The images consists of many types of cells. We are classifying cells from only 3 classes - RBCs, pus cells/WBCs and epithelial cells. Most of the cells in the dataset are annotated with bounding boxes around them using the Microsoft Visual Object Tagging Tool (VoTT). We also used point annotations for annotating the cells which are present in clusters as drawing boxes over overlapping cells is a difficult task. The validation set is taken as 10% of all the training samples. The testing set is taken as 15% of the images.  
 
 This dataset can be used to train deep learning models for cell detection and counting to assist in the diagnosis of kidney related diseases from urine samples. 
+
+The RBCs are smaller, rounded and have well-defined sharp boundaries resembling a cup shaped structure. The pus cells are generally rounded and grainy in texture with no well-defined borders. The epithelial cells are irregular in shape, larger in size and generally contains a nucleus.The number of different cells in the data are listed in table:
+
+cell type | Training Set | Validation Set | Testing Set |
+rbc | 2324 | 2e3 | 3546 |
