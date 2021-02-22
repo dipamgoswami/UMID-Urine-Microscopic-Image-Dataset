@@ -8,5 +8,6 @@ This dataset can be used to train deep learning models for cell detection and co
 
 The RBCs are smaller, rounded and have well-defined sharp boundaries resembling a cup shaped structure. The pus cells are generally rounded and grainy in texture with no well-defined borders. The epithelial cells are irregular in shape, larger in size and generally contains a nucleus.The number of different cells in the data are listed in table:
 
-cell type | Training Set | Validation Set | Testing Set |
-rbc | 2324 | 2e3 | 3546 |
+| cell type | Training Set | Validation Set | Testing Set |
+| --------- | ------------ | -------------- | ----------- |
+| rbc | 2324 | 2e3 | 3546 |
