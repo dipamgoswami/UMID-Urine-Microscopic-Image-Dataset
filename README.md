@@ -14,3 +14,12 @@ The RBCs are smaller, rounded and have well-defined sharp boundaries resembling 
 | pus | 556 | 85 | 142 |
 | epithelial | 459 | 65 | 76 |
 | Total | 1773 | 244 | 364 |
+
+For baseline (excluding images having cluster of cells):
+
+| cell type | Training Set |
+| --------- | ------------ |
+| rbc | 781 | 
+| pus | 345 | 
+| epithelial | 350 | 
+| Total | 1476 |
