@@ -15,7 +15,7 @@ The RBCs are smaller, rounded and have well-defined sharp boundaries resembling 
 | epithelial | 459 | 65 | 76 |
 | Total | 1773 | 244 | 364 |
 
-The Training Set has annotations of cells as well as cluster of cells. 
+The Training Set has annotations of cells as well as cluster of cells (Group Annotations). 
 | cell type | Number of clusters |
 | --------- | ------------ |
 | rbc | 2 |
@@ -25,7 +25,7 @@ The Training Set has annotations of cells as well as cluster of cells.
 
 Hence, the number of individual cells in training set is more than 1773. 
 
-For baseline (excluding images having cluster of cells):
+For baseline (excluding images having cluster of cells), we have a total of 226 images and 1476 instances of cells. The split-up is as follows:
 
 | cell type | Training Set |
 | --------- | ------------ |
