@@ -22,6 +22,7 @@ The Training Set has annotations of cells as well as cluster of cells.
 | pus | 42 |
 | epithelial | 13 |
 | Total | 57 |
+
 Hence, the number of individual cells in training set is more than 1773. 
 
 For baseline (excluding images having cluster of cells):
