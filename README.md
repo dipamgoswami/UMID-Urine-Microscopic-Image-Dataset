@@ -13,4 +13,4 @@ The RBCs are smaller, rounded and have well-defined sharp boundaries resembling 
 | rbc | 796 | 94 | 146 |
 | pus | 556 | 85 | 142 |
 | epithelial | 459 | 65 | 76 |
-| Total | 1773 | 638 | 364 |
+| Total | 1773 | 244 | 364 |
