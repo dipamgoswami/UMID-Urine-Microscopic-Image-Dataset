@@ -15,13 +15,14 @@ The RBCs are smaller, rounded and have well-defined sharp boundaries resembling 
 | epithelial | 459 | 65 | 76 |
 | Total | 1773 | 244 | 364 |
 
-The Training Set of 271 images has annotations of cells as well as cluster of cells (Group Annotations). 
-| cell type | Number of clusters |
-| --------- | ------------ |
-| rbc | 2 |
-| pus | 42 |
-| epithelial | 13 |
-| Total | 57 |
+The Training Set of 271 images has annotations of cells as well as cluster of cells (Group Annotations). The Validation and Testing sets also has clusters of cells but these cells are annotated individually for computing the performance of the models.
+| Number of clusters |
+| cell type | Training Set | Validation Set | Testing Set |
+| --------- | ------------ | -------------- | ----------- |
+| rbc | 2 | 0 | 0 |
+| pus | 42 | 6 | 10 |
+| epithelial | 13 | 2 | 4 |
+| Total | 57 | 8 | 14 |
 
 Hence, the number of individual cells in training set is more than 1773. 
 
