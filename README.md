@@ -35,7 +35,7 @@ Table populated in the order: Number of clusters (Total Number of cells in clust
 | Total | 172 (673) | 35 (108) | 40 (117) |
 
 
-For baseline (excluding images having cluster of cells), we have a total of 158 images and 1424 instances of cells. The split-up is as follows:
+For baseline (excluding images having cluster of cells), we have a total of 159 images and 1424 instances of cells. The split-up is as follows:
 
 | cell type | Baseline Training Set | Training set without clusters |
 | --------- | ------------ | ---------- |
