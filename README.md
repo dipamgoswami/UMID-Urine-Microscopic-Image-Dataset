@@ -6,16 +6,24 @@ We present a dataset comprising of 374 annotated microscopic images of urine sed
 
 This dataset can be used to train deep learning models for cell detection and counting to assist in the diagnosis of kidney related diseases from urine samples. 
 
-The RBCs are smaller, rounded and have well-defined sharp boundaries resembling a cup shaped structure. The pus cells are generally rounded and grainy in texture with no well-defined borders. The epithelial cells are irregular in shape, larger in size and generally contains a nucleus.The number of different cells in the data are listed in table:
+The RBCs are smaller, rounded and have well-defined sharp boundaries resembling a cup shaped structure. The pus cells are generally rounded and grainy in texture with no well-defined borders. The epithelial cells are irregular in shape, larger in size and generally contains a nucleus. The number of different cells in the data are listed in table:
 
 | cell type | Training Set | Validation Set | Testing Set |
+|           | 268 images   | 38 images      | 61 images   |
 | --------- | ------------ | -------------- | ----------- |
-| rbc | 796 | 94 | 146 |
-| pus | 556 | 85 | 142 |
-| epithelial | 459 | 65 | 76 |
-| Total | 1773 | 244 | 364 |
+| rbc | 1297 | 150 | 246 |
+| pus | 1110 | 114 | 161 |
+| epithelial | 642 | 82 | 96 |
+| Total | 3049 | 346 | 503 |
 
-The Training Set of 271 images has annotations of cells as well as cluster of cells (Group Annotations). The Validation and Testing sets also has clusters of cells but these cells are annotated individually for computing the performance of the models.
+We have a total of 3898 cell annotations in all the sets.
+
+We have some cells which cannot be classified into any of the 3 classes and are labelled as missedlabel.
+| cell type | Training Set | Validation Set | Testing Set |
+| --------- | ------------ | -------------- | ----------- |
+| missedlabel | 39 | 5 | 24 |
+
+The Training Set of 268 images has annotations of cells as well as cluster of cells (Group Annotations). The Validation and Testing sets also has clusters of cells but these cells are annotated individually for computing the performance of the models.
 | Number of clusters |
 | cell type | Training Set | Validation Set | Testing Set |
 | --------- | ------------ | -------------- | ----------- |
