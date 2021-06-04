@@ -37,9 +37,9 @@ Table populated in the order: Number of clusters (Total Number of cells in clust
 
 For baseline (excluding images having cluster of cells), we have a total of 158 images and 1424 instances of cells. The split-up is as follows:
 
-| cell type | Training Set |
-| --------- | ------------ |
-| rbc | 993 |
-| pus | 302 |
-| epithelial | 129 |
-| Total | 1424 |
+| cell type | Baseline Training Set | Training set without clusters |
+| --------- | ------------ | ---------- |
+| rbc | 993 | 1246 |
+| pus | 302 | 783 |
+| epithelial | 129 | 347 |
+| Total | 1424 | 2376 |
