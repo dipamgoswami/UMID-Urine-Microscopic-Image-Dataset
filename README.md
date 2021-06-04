@@ -9,8 +9,8 @@ This dataset can be used to train deep learning models for cell detection and co
 The RBCs are smaller, rounded and have well-defined sharp boundaries resembling a cup shaped structure. The pus cells are generally rounded and grainy in texture with no well-defined borders. The epithelial cells are irregular in shape, larger in size and generally contains a nucleus. The number of different cells in the data are listed in table:
 
 | cell type | Training Set | Validation Set | Testing Set |
-|           | 268 images   | 38 images      | 61 images   |
 | --------- | ------------ | -------------- | ----------- |
+|           | 268 images   | 38 images      | 61 images   |
 | rbc | 1297 | 150 | 246 |
 | pus | 1110 | 114 | 161 |
 | epithelial | 642 | 82 | 96 |
@@ -24,15 +24,14 @@ We have some cells which cannot be classified into any of the 3 classes and are 
 | missedlabel | 39 | 5 | 24 |
 
 The Training Set of 268 images has annotations of cells as well as cluster of cells (Group Annotations). The Validation and Testing sets also has clusters of cells but these cells are annotated individually for computing the performance of the models.
-| Number of clusters |
+| Number of clusters (Total Number of cells in clusters) |
 | cell type | Training Set | Validation Set | Testing Set |
 | --------- | ------------ | -------------- | ----------- |
-| rbc | 2 | 0 | 0 |
-| pus | 42 | 6 | 10 |
-| epithelial | 13 | 2 | 4 |
-| Total | 57 | 8 | 14 |
+| rbc | 21 (51) | 6 (16) | 9 (21) |
+| pus | 81 (327) | 15 (45) | 16 (44) |
+| epithelial | 70 (295) | 14 (47) | 15 (52) |
+| Total | 172 (673) | 35 (108) | 40 (117) |
 
-Hence, the number of individual cells in training set is more than 1773. 
 
 For baseline (excluding images having cluster of cells), we have a total of 226 images and 1476 instances of cells. The split-up is as follows:
 
