@@ -24,7 +24,9 @@ We have some cells which cannot be classified into any of the 3 classes and are 
 | missedlabel | 39 | 5 | 24 |
 
 The Training Set of 268 images has annotations of cells as well as cluster of cells (Group Annotations). The Validation and Testing sets also has clusters of cells but these cells are annotated individually for computing the performance of the models.
-| Number of clusters (Total Number of cells in clusters) |
+
+Table populated in the order: Number of clusters (Total Number of cells in clusters) 
+
 | cell type | Training Set | Validation Set | Testing Set |
 | --------- | ------------ | -------------- | ----------- |
 | rbc | 21 (51) | 6 (16) | 9 (21) |
@@ -33,11 +35,11 @@ The Training Set of 268 images has annotations of cells as well as cluster of ce
 | Total | 172 (673) | 35 (108) | 40 (117) |
 
 
-For baseline (excluding images having cluster of cells), we have a total of 226 images and 1476 instances of cells. The split-up is as follows:
+For baseline (excluding images having cluster of cells), we have a total of 158 images and 1424 instances of cells. The split-up is as follows:
 
 | cell type | Training Set |
 | --------- | ------------ |
-| rbc | 781 | 
-| pus | 345 | 
-| epithelial | 350 | 
-| Total | 1476 |
+| rbc | 993 |
+| pus | 302 |
+| epithelial | 129 |
+| Total | 1424 |
