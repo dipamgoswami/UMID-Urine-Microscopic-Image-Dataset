@@ -8,3 +8,13 @@ This dataset can be used to train deep learning models for cell detection and co
 
 The RBCs are smaller, rounded and have well-defined sharp boundaries resembling a cup shaped structure. The pus cells are generally rounded and grainy in texture with no well-defined borders. The epithelial cells are irregular in shape, larger in size and generally contains a nucleus.
 
+## Cite
+If you are using the dataset in your work, cite the following preprint:
+```bibtex
+@article{goswami2021urine,
+  title={Urine microscopic image dataset},
+  author={Goswami, Dipam and Aggrawal, Hari Om and Gupta, Rajiv and Agarwal, Vinti},
+  journal={arXiv preprint arXiv:2111.10374},
+  year={2021}
+}
+```bibtex
